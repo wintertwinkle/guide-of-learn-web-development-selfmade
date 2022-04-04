@@ -1,54 +1,206 @@
 # 我的前端自学指南
 
-本文档记录我在自学前端过程中对前端的理解, 知识体系搭建的过程，以及相关学习资源的收录。
+本文档记录我在自学前端的过程中，对前端的理解和感悟, 知识体系搭建的过程，以及相关学习资源的收录。
+
+[toc]
 
 ## Prerequisites
 
-- You **CAN'T** learn something just by watching and copy, you need to do it by yourself!
-- Think frequently! ask youself `why`, `how` and `what`
+1. 尊重编程，尊重你的工作。如果你的出发点不是热爱，那么请至少对你的工作保持一份最基本的尊重。
+2. 切记不要只看不动手，`实践实践实践`，即便是最简单的知识点，也要动手去做，不要眼高手低。
+3. 不要盲目的学习和写代码，要多思考总结，建立自己的知识体系，先建立枝干，再填充细节，不要迷失在细节的海洋里。
+4. 合理安排你的时间和精力，三天打鱼两天晒网和一天学十几个小时都是不可取的。保持一份平常心，一步一个脚印的前进。生活除了编程外，还有很多其他美好的东西值得你去体验。
 
 ## HTML
 
-### 1. 熟悉各种常用标签
+### 1. 熟悉 HTML 基本知识
 
-**Resources List:**
+我推荐使用`MDN`来完成入门学习
 
-- [MDN HTML tutorial](https://developer.mozilla.org/en-US/docs/Learn/HTML).
+- [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+- [Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+- [What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+- [HTML text fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+- [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+- [Advanced text formatting](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
+- [Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+- [Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML)
 
-### 2. 懂得如何使用合适的标签写出简洁明了的页面框架
+基础练习资源：
 
-**Resources List:**
+- [freecodecamp HTML Basic](https://www.freecodecamp.org/learn/responsive-web-design/)
 
-- [HTML Best Practices: How to Build a Better HTML-based Website](https://www.freecodecamp.org/news/html-best-practices/)
+### 2. 学习多媒体标签和嵌入式标签
+
+- [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding)
+- [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+- [Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
+- [From object to iframe: other embedding techonologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
+- [Adding vector graphics to the web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
+- [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+
+### 3. 表格
+
+- [HTML Table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+- [HTML table advanced features and accessiblity](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
+
+### 4. 表单
+
+- [web forms: working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+
+### 5. 语义化和最佳实践
+
+要懂得如何使用合适的标签和合理的层次嵌套写出高效简洁的页面框架，这个阶段需要进行大量的实践和思考
+
+- [HTML Best practices](https://www.freecodecamp.org/news/html-best-practices/)
+
+### 6. 练习资源
+
+- [freecodecamp responsive design](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 ## CSS
 
-### 1. 建立`CSS知识体系`
+### 1. CSS 基础入门
 
-**Resources List:**
+- [CSS first steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+- [What is CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
+- [Getting started with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
+- [How CSS is structured](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
+- [How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
 
-- [MDN CSS tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS).
+### 2. CSS 核心知识
 
-### 2. 熟练使用常用属性
+- [核心知识概览](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
+- [Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+- [CSS Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+- [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [Backgrounds and borders](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
+- [Handing different text directions](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions)
+- [Overflowing content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content)
+- [Sizing items in CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS)
+- [Images, media, and form elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements)
+- [Styling Tables](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables)
+- [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS)
+- [Organizing CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
 
-没有捷径，多多练习
+### 3. Styling text
 
-Resources List:
+- [Styling text overview](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text)
+- [Fundamental text and font styling](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
+- [Styling lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
+- [Styling links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links)
+- [Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
 
+### 4. CSS Layout
+
+- [Layout overview](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+- [Introduction to CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction)
+- [Normal flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow)
+- [Flex box](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [Grids](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
+- [Floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
+- [Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning)
+- [Multiple-column Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout)
+- [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [Beginner's guide to media queries](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries)
+- [Legacy Layout Methods](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods)
+- [Supporting Older Browsers](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers)
+- [Fundamental Layout Comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)
+
+### 5. CSS methodologies(方法论)
+
+掌握常见的 CSS 方法论和工程化工具，能够写出`简洁`,`可复用`,`可维护`,`兼容性好`的 CSS
+
+**BEM**
+
+- [BEM-Block Element Modifier](http://getbem.com/introduction/)
+
+**OOCSS**
+
+**SASS**
+
+**postCSS**
+
+**LESS**
+
+### 6. CSS 兼容
+
+**CSS 兼容综述**
+
+CSS 兼容从兼容场景来看可以分为两部分：`跨浏览器兼容` 和 `浏览器向下兼容`
+
+- [Browser Compatibility](https://www.codecademy.com/article/f1-u5-browser-compatibility)
+- [Supporting Older Browsers](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers)
+
+**兼容策略**
+
+CSS 兼容策略主流上有两种：`progressive enhancement` (渐进式增强) 和 `graceful degradation` (优雅下降)
+
+- [Understanding CSS Fallback Behavior](https://ageek.dev/css-fallback-behavior)
+
+**fallback 机制**
+
+CSS 提供了一种 fallback 机制，指的是当浏览器遇到它不支持的 CSS 属性或者非法的属性值时，浏览器不会报错，而是会直接忽略掉这个属性。
+
+利用 CSS 的`Cascade`和这种机制可以用来实现 CSS 兼容，该机制从策略分类上属于`graceful degradation`
+
+下面列举一些使用 fallback 机制来完成 CSS 兼容的例子：
+
+下面这段代码在 `.red-box` 类选择器中同时声明了两行用来定义背景颜色的代码。
+
+其中 `background-color: red` 写在 `background-color: var(--red-color)` 前面。
+
+当浏览器支持 `var` 函数时，因为 `Cascade`，`background-color: var(--red-color)` 会覆盖 `background-color: red`。
+
+当浏览器不支持 `var` 函数时，浏览器会直接忽略 `background-color: var(--red-color)`, 从而 `background-color: red` 会生效，实现 `graceful degradation`
+
+```css
+:root {
+  --red-color: red;
+}
+.red-box {
+  background-color: red;
+  background-color: var(--red-color);
+}
+```
+
+另一个例子就是常见的字体栈( `font stack` ):
+
+```css
+// 下面的例子来自于知乎PC端网页的字体设置
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    sans-serif;
+}
+```
+
+### 7. CSS Patterns
+
+在写 CSS 时，有一些解决某些特定问题的通用解法和最佳实践，这些可以称之为 `Patterns` ，学习和运用这些 `Patterns` 可以节省我们大量时间和精力。
+
+- [The beginner's Guide to Web Design Patterns](https://blog.hubspot.com/website/design-patterns)
+- [Patterns: a collection of code snippets to help you optimize your web projects](https://web.dev/patterns/)
+
+### 8. 练习资源
+
+- [freecodecamp](https://www.freecodecamp.org/learn/responsive-web-design/)
 - [Brad Traversy's 50 projects 50 days](https://www.udemy.com/course/50-projects-50-days)
-- [Jonas Schmedtmann's Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass)
-
-### 3. 掌握常见功能的实现，熟悉`Patterns`
-
-没有捷径，多多练习
-
-**Resources List:**
-
 - [Jonas Schmedtmann's Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass)
 
 ## JavaScript
 
-### 1. 熟悉 `基本语法` 和 `常用内置对象`
+### 1. 入门和基本使用
+
+- [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [JavaScript First steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+- [What is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+- [A first splash into javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
+- [What went wrong? Troubleshooting JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong)
+- [Storing the information you need: Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+- [Basic math in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
+- [Handling text: strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
 
 ### 2. 了解 `ojbect` 和 `function` 及其背后的 `Scope`, `Prototype chain`, `Clousre` 等核心概念
 
@@ -154,3 +306,7 @@ Resources List:
 beforeCreate -> `组件创建` -> created -> beforeInit -> `组件初始化` -> inited -> beforeUpdate `状态更新` -> updated
 上述举例并不完全，并且不同的框架对于生命周期的定义也有所不同。但是大致的流程是相似的，一通百通。
 不过好像听说在 `React` 中，`Hooks` 的出现把生命周期函数干翻了，也不知道是真是假，后续再研究一下。
+
+```
+
+```
