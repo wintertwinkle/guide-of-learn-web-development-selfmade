@@ -191,9 +191,8 @@ body {
 
 ## JavaScript
 
-### 1. 入门和基本使用
+### 1. 入门基础
 
-- [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 - [JavaScript First steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
 - [What is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [A first splash into javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash)
@@ -201,18 +200,187 @@ body {
 - [Storing the information you need: Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
 - [Basic math in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
 - [Handling text: strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
+- [Useful string methods](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods)
+- [Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 
-### 2. 了解 `ojbect` 和 `function` 及其背后的 `Scope`, `Prototype chain`, `Clousre` 等核心概念
+基础知识练习：
 
-**Resources List:**
+- [freecodecamp JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [Silly story_generator](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Silly_story_generator)
+
+### 2. 核心知识
+
+核心知识概览：
+
+- [JavaScript building blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks)
+
+条件判断：
+
+- [Making decisions in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+
+循环：
+
+- [Looping code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
+
+函数：
+
+- [Functions: reusable blocks of code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+- [Build your own function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
+- [Function return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
+
+`this` :
+
+- [Understanding JavaScript Bind()](https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/#top)
+
+### 3. 对象
+
+对象概要介绍：
+
+- [Introducing JavaScript objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+- [JavaScript ojbect basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+
+原型 `prototype` :
+
+- [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+- [Object-oriented programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)
+
+类 `class` :
+
+- [Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)
+
+`JSON` :
+
+- [Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+
+练习资源：
+
+- [Object building practice](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice)
+- [Adding features to our bouncing balls demo](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features)
+
+### 4. 异步编程
+
+初步了解异步编程的基本概念：
+
+- [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+- [Introducing asynchoronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
+
+在初步知道异步编程的概念后，下一步要了解浏览器的事件循环(`Event Loop`)，这有助于理解 JavaScript 是怎么在浏览器中执行的，在面对异步代码的时候，脑海中有一个清晰的异步模型，可以帮助你分析代码的执行顺序，从而提高代码质量，减少 BUG：
+
+下面这个视频对 `Event Loop` 讲的很好，是学习 `Event Loop` 很好的入门材料，但是他没有讲到 `Task`(宏任务) 和 `micro task`(微任务) ：
+
+- [What the heck is the eventloop anyway](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
+下面这篇文章对宏任务和微任务讲解的很不错，文章不止讲了异步任务队列，还详细介绍了异步任务队列其实有 3 种：`Task queue`, `Render queue` 和 `Microtask queue` 在执行顺序上是：`Microtask queue`->`Render queue`->`Task queue`
+
+- [How does JavaScript work](https://bravelab.io/blog/how-does-javascript-work/)
+
+如果看了上面这篇文章还是对异步模型的具体运转不太了解，那么下面这篇文章制作了几个演示程序，一步一步的演示几个异步队列是如何运作的：
+
+- [tasks microtasks queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+
+在了解完 `Event Loop` 后，接下来学习现代 JavaScript 异步编程的基石 `Promise` :
+
+- [How to use promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
+- [How to implement a promise-based API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Implementing_a_promise-based_API)
+
+`Web workers` :
+
+- [Introducing workers](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing_workers)
+
+### 5. JavaScript 高阶知识
+
+`Scope` :
+
+闭包 `Closure`:
+
+以前我一直不知道闭包是用来干什么的，对什么是闭包也是一知半解。其实，每个概念都有它存在的理由。
+
+在 JavaScript 中是没有传统面向对象语言如 Java 中 `public` 和 `private` 的概念的，所以 JavaScript 中的对象对外是完全开放的，所有人都能随意读取和使用它的属性和方法。
+
+但是这对于封装和抽象是很不友好的。因此，为了实现抽象和封装功能，有必要引入一种方法，而在我的理解中，这种方法就是 `Closure` 。
+
+基于 `Scope` 的知识，在 JavaScript 中除了 `Global` 域外，只有函数具有作用域，并且函数的作用域从外面是访问不到的，这就具有天然的隐私性，可以用来保存私有数据和私有方法。但问题在于，函数的 `Scope` 在函数被执行完毕后就会被销毁，里面保存的数据和方法就都没了。
+
+那么有没有一种方法可以保证函数在执行完毕后它的 `Scope` 还能保存在内存中不被回收呢?
+
+有的，这就是 `Closure`。我把 `Closure` 理解为函数执行完毕后返回给外面的一个接口，或者说一个 `handler`。
+
+因为有这个接口的存在，`GC`(垃圾回收器)知道这个函数的 `Scope` 还在被使用，所以在函数执行完后不会对它的 `Scope` 进行回收。
+
+如果你在网上搜索什么是闭包？一般都会得到一个回答：`闭包是指有权访问另一个函数作用域中的变量的函数。`
+
+我刚开始看到这句话的时候，对它的理解是只有返回函数的函数才是闭包。那么，是不是如果一个函数返回的这个`接口`不是函数，就没有办法访问`Scope`中保存的数据和方法了呢？如果我前面的理解是对的话，那么当然不是的，比如下面这个例子：
+
+```js
+function closure() {
+  // 私有变量
+  let private_variable = "I am a private varaible"
+  // 公共方法
+  const get = () => {
+    return private_variable
+  }
+  const set = (newVal) => {
+    private_variable = newVal
+  }
+
+  // 返回该函数 Scope 的接口
+  return { set, get }
+}
+
+let obj = closure()
+
+console.log(obj.get()) // "I am a private varaible"
+
+obj.set("Hello World")
+
+console.log(obj.get()) // "Hello World"
+```
+
+从上面这段代码我们可以看到，`closure` 函数没有返回一个函数，而是返回了一个对象，但通过该对象依然能访问到 `closure` 函数。你能说这不是闭包吗？
+
+我们接着在上面的例子上做一点小修改：
+
+```js
+function closure() {
+  // 私有变量
+  let private_variable = "I am a private varaible"
+  // 公共方法
+  const get = () => {
+    return private_variable
+  }
+  const set = (newVal) => {
+    private_variable = newVal
+  }
+
+  // 返回该函数 Scope 的接口
+  return [get, set]
+}
+
+let obj = closure()
+
+console.log(obj[0]()) // "I am a private varaible"
+
+obj[1]("Hello World")
+
+console.log(obj[0]()) // "Hello World"
+```
+
+这段代码中，我们返回的是一个数组，同样可以看到`closure` 函数的 `Scope` 被保存了。
+
+从上面的分析可以看到，闭包的形成本质在于 `Scope` 的串联，而不在于函数返回值是什么。
+
+因此，只要返回的数据结构中有在该函数 `Scope` 中定义的函数，那么就会形成 `Scope` 的串联。
+
+如果你只返回非函数变量，那么就没有办法形成`Scope` 的串联。
+
+综上，我把`Closure`闭包理解为 `私有数据` + `对外的公共接口`。
+
+### 5. JavaScript 书籍推荐
 
 - [You don't know JS yet](https://github.com/getify/You-Dont-Know-JS)
+- [Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers](https://leanpub.com/understandinges6/read/#leanpub-auto-introduction)
 
 ### 3. 熟练使用 `ES6`
-
-**Resources List:**
-
-- [Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers](https://www.amazon.com/gp/product/1593277571)
 
 ### 4. 使用 `TypeScirpt`
 
